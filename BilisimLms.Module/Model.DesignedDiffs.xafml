@@ -1,8 +1,11 @@
-﻿<?xml version="1.0" ?>
-<Application Title="BilisimLms">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="BilisimLms" PreferredLanguage="tr-TR">
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
-  <Views>
-  </Views>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="18.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SchedulerModuleBase" Version="18.1.6.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="18.1.6.0" IsNewNode="True" />
+  </SchemaModules>
 </Application>
